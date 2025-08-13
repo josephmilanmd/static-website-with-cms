@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: josephmilanmd/static-website-with-cms
   branch: master
 
 media_folder: "public/uploads"
