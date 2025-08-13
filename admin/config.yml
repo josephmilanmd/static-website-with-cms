@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: josephmilanmd/static-website-with-cms
+  branch: master
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+      - file: "public/content.json"
+        label: "Site Settings"
+        name: "settings"
+        fields:
+          - { label: "Company Name", name: "companyName", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "About", name: "about", widget: "text" }
