@@ -2,6 +2,7 @@ backend:
   name: github
   repo: josephmilanmd/static-website-with-cms
   branch: master
+  base_url: https://static-website-with-cms.netlify.app
 
 media_folder: "public/uploads"
 public_folder: "/uploads"
